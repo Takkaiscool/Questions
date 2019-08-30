@@ -1,7 +1,4 @@
 package medium;
-
-import com.sun.tools.javac.util.StringUtils;
-
 public class StringDuplication {
 
     public static void main(String[] args) {

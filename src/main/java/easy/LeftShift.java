@@ -1,3 +1,5 @@
+package easy;
+
 public class LeftShift {
     public static void main(String[] args) {
         String data="Arunkumar";

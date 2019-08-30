@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968c1b0a-c14b-44cc-bf02-d96d0434988e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +33,11 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1PxfJ3s1oPly2iWOryKmplWoBHR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -53,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordDuplication">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="BitPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BitPattern" />
       <module name="Assignment.main" />
@@ -61,15 +64,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Factorial" />
       <module name="Assignment.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftShift" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Fibonacci" />
       <module name="Assignment.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.WordDuplication" />
         <item itemvalue="Application.StringDuplication" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.BitPattern" />
-        <item itemvalue="Application.LeftShift" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +114,7 @@
       <updated>1566820592937</updated>
       <workItem from="1566820597991" duration="4096000" />
       <workItem from="1566883237346" duration="37000" />
-      <workItem from="1567156455402" duration="1246000" />
+      <workItem from="1567156455402" duration="1940000" />
     </task>
     <servers />
   </component>
@@ -128,5 +131,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

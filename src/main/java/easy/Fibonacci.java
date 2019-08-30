@@ -1,3 +1,5 @@
+package easy;
+
 public class Fibonacci {
     public static void main(String[] args) {
         int prev=0;

@@ -1,48 +1,37 @@
 package hard;
 
+class Node{
+    int data;
+    Node next;
+    public  Node(int data){
+        this.data=data;
+        next=null;
+    }
+
+    public static Node insert(int data,Node head){
+        Node curr=head;
+        if(head==null)
+            return new Node(data);
+        while (curr.next!=null){
+            curr=curr.next;
+        }
+        curr.next=new Node(data);
+        return  head;
+    }
+    public static void printData(Node head){
+        while(head!=null){
+            System.out.println(head.data);
+            head=head.next;
+        }
+    }
+}
 public class CLinkedList {
-    Node head;
-    static  class Node{
-        int data;
-        Node next;
-        Node(int d){
-            data=d;
-            next=null;
-        }
-    }
-
-    public  static CLinkedList insert(CLinkedList list,int data){
-        Node newNode=new Node(data);
-        newNode.next=null;
-        if(list.head==null){
-            list.head=newNode;
-        }
-        else{
-            Node last=list.head;
-            while (last.next!=null){
-                last=last.next;
-            }
-            last.next=newNode;
-        }
-        return list;
-    }
-
-    public  static void printList(CLinkedList list){
-        Node currentnode=list.head;
-        System.out.println("Linked List: ");
-        while (currentnode!=null){
-            System.out.print(currentnode.data+"");
-            currentnode=currentnode.next;
-        }
-        System.out.println();
-    }
 
     public static void main(String[] args) {
-        CLinkedList list=new CLinkedList();
-        list=insert(list,5);
-        list=insert(list,6);
-        list=insert(list,7);
-        list=insert(list,8);
-        printList(list);
+        Node head=null;
+        head=Node.insert(15,head);
+        head=Node.insert(20,head);
+        Node.printData(head);
+
     }
 }
